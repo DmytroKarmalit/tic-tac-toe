@@ -178,11 +178,11 @@ int main() {
 
 		cout << "Step second gamer " << endl;
 		cin >> a;
-		gameStep(a, '0');
+		gameStep(a, 'O');
 		system("cls");
 		printArr();
 		cout << endl << endl;
-		if (checkWin('0')) {
+		if (checkWin('O')) {
 			cout << "second gammer win";
 			break;
 		}
